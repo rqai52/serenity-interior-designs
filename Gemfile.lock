@@ -36,4 +36,6 @@ GEM
     activestorage (5.2.2)
       actionpack (= 5.2.2)
       activerecord (= 5.2.2)
-  
+      marcel (~> 0.3.1)
+    activesupport (5.2.2)
+      concurrent
