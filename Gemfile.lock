@@ -48,4 +48,7 @@ GEM
       msgpack (~> 1.0)
     builder (3.2.3)
     coderay (1.1.2)
-    coinbase (4
+    coinbase (4.2.0)
+    concurrent-ruby (1.1.3)
+    crass (1.0.4)
+    devise (4.5.0
