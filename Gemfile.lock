@@ -57,4 +57,6 @@ GEM
       railties (>= 4.1.0, < 6.0)
       responders
       warden (~> 1.2.3)
-    devise_token_a
+    devise_token_auth (1.0.0)
+      devise (> 3.5.2, < 4.6)
+      rails (>= 4.2.0, < 6)
