@@ -62,4 +62,7 @@ GEM
       rails (>= 4.2.0, < 6)
     erubi (1.7.1)
     faraday (0.15.4)
-      multipart-post (>= 1.2, < 3
+      multipart-post (>= 1.2, < 3)
+    ffi (1.9.25)
+    globalid (0.4.1)
+      activesupport (>=
