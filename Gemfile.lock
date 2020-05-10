@@ -65,4 +65,7 @@ GEM
       multipart-post (>= 1.2, < 3)
     ffi (1.9.25)
     globalid (0.4.1)
-      activesupport (>=
+      activesupport (>= 4.2.0)
+    hashie (3.5.7)
+    httparty (0.16.3)
+      mime-types (~> 3.
