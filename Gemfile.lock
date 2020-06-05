@@ -127,4 +127,7 @@ GEM
       rack (>= 1.0, < 3)
     rails (5.2.2)
       actioncable (= 5.2.2)
-      actionmailer (= 5.2
+      actionmailer (= 5.2.2)
+      actionpack (= 5.2.2)
+      actionview (= 5.2.2)
+      activejob (= 5.2.2
