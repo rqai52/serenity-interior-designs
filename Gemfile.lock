@@ -133,4 +133,7 @@ GEM
       activejob (= 5.2.2)
       activemodel (= 5.2.2)
       activerecord (= 5.2.2)
-      activestorage (= 
+      activestorage (= 5.2.2)
+      activesupport (= 5.2.2)
+      bundler (>= 1.3.0)
+      railties (
