@@ -139,4 +139,6 @@ GEM
       railties (= 5.2.2)
       sprockets-rails (>= 2.0.0)
     rails-dom-testing (2.0.3)
-      ac
+      activesupport (>= 4.2.0)
+      nokogiri (>= 1.6)
+    rails
