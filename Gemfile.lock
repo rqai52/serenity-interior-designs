@@ -188,4 +188,9 @@ DEPENDENCIES
   httparty
   listen (>= 3.0.5, < 3.2)
   omniauth
-  
+  omniauth-coinbase
+  pg (>= 0.18, < 2.0)
+  pry
+  puma (~> 3.11)
+  rack-cors
+  rails (~
