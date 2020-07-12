@@ -5,4 +5,12 @@ application up and running.
 
 Things you may want to cover:
 
-* R
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Da
