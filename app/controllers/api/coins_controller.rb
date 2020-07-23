@@ -5,4 +5,6 @@ class Api::CoinsController < ApplicationController
 
   def index
     listings = HTTParty.get("#{BASE_URL}")['data'].values
-    user_coins = c
+    user_coins = current_user.coins
+    user_coins.each do |coin|
+      res_coin = listings.find 
