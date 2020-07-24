@@ -17,4 +17,5 @@ class Api::CoinsController < ApplicationController
   # POST /api/coins ?coin=btc
   def create
     cmc_id = params[:coin].upcase  
-  
+    listings = HTTParty.get("#{BASE_URL}listings")
+    listing = listings['d
