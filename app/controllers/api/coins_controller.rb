@@ -8,4 +8,10 @@ class Api::CoinsController < ApplicationController
     user_coins = current_user.coins
     user_coins.each do |coin|
       res_coin = listings.find { |c| c['id'] === coin.cmc_id }
-      coin.update(price: res_coin['quote
+      coin.update(price: res_coin['quotes']['USD']['price'])
+    end
+
+    render json: current_user.coins
+  end
+
+  # 
