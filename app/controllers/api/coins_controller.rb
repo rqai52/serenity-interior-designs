@@ -14,4 +14,7 @@ class Api::CoinsController < ApplicationController
     render json: current_user.coins
   end
 
-  # 
+  # POST /api/coins ?coin=btc
+  def create
+    cmc_id = params[:coin].upcase  
+  
