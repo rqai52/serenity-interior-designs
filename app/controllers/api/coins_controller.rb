@@ -21,4 +21,4 @@ class Api::CoinsController < ApplicationController
     listing = listings['data'].find { |l| l['symbol'] == cmc_id }
     res = HTTParty.get("#{BASE_URL}/ticker/#{listing['id']}")
     if coin = Coin.create_by_cmc_id(res)
-      w
+      watched = WatchedCoin.find_or_create_by(coin_id: coin.id, user_i
