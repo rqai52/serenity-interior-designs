@@ -19,4 +19,6 @@ class Api::CoinsController < ApplicationController
     cmc_id = params[:coin].upcase  
     listings = HTTParty.get("#{BASE_URL}listings")
     listing = listings['data'].find { |l| l['symbol'] == cmc_id }
-    res = HTTParty.get("#{BASE_URL
+    res = HTTParty.get("#{BASE_URL}/ticker/#{listing['id']}")
+    if coin = Coin.create_by_cmc_id(res)
+      w
