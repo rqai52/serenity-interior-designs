@@ -25,4 +25,8 @@ class Api::CoinsController < ApplicationController
       watched.update(initial_price: coin.price) if watched.initial_price.nil?
       render json: coin
     else
-      render
+      render json: { errors: 'Coin Not Found' }, status: 422
+    end
+  end
+
+  def sh
