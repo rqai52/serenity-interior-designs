@@ -29,4 +29,6 @@ class Api::CoinsController < ApplicationController
     end
   end
 
-  def sh
+  def show
+    res = HTTParty.get("#{BASE_URL}ticker/#{params[:id]}")
+    r
