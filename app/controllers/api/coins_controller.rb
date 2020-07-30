@@ -31,4 +31,8 @@ class Api::CoinsController < ApplicationController
 
   def show
     res = HTTParty.get("#{BASE_URL}ticker/#{params[:id]}")
-    r
+    render json: res['data']
+  end
+
+  # PUT /api/coins/:id
+  # Stop watching 
