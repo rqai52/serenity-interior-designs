@@ -45,4 +45,9 @@ class Api::CoinsController < ApplicationController
   end
 
   private
-    def set_coi
+    def set_coin
+      @coin = Coin.find(params[:id])
+    end
+
+
+end
