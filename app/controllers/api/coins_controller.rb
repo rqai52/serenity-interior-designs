@@ -37,4 +37,12 @@ class Api::CoinsController < ApplicationController
   # PUT /api/coins/:id
   # Stop watching a coin
   def update
-    current_user.watched_coins.find_by(coin_id: @coin.id).des
+    current_user.watched_coins.find_by(coin_id: @coin.id).destroy
+  end
+
+  def destroy
+    @coin.destroy
+  end
+
+  private
+    def set_coi
