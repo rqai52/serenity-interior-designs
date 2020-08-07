@@ -1,2 +1,3 @@
 class ApplicationRecord < ActiveRecord::Base
-  sel
+  self.abstract_class = true
+end
