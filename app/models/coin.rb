@@ -1,2 +1,2 @@
 class Coin < ApplicationRecord
-    validates_un
+    validates_uniquieness_of :cmc_id, :name, :symbol, { case_sensitive: false }
