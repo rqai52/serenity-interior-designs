@@ -3,4 +3,5 @@ class Coin < ApplicationRecord
     validates_presence_of :cmc_id, :name, :symbol
 
     has_many :watched_coins, dependent :destroy
-    has_many :users, through: :watched_coi
+    has_many :users, through: :watched_coins
+end
