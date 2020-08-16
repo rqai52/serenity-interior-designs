@@ -5,4 +5,7 @@ class User < ActiveRecord::Base
   # :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
-  include DeviseTok
+  include DeviseTokenAuth::Concerns::User
+
+  has_many :watched_coins, dependent: :destroy
+  has_many
