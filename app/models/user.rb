@@ -8,4 +8,5 @@ class User < ActiveRecord::Base
   include DeviseTokenAuth::Concerns::User
 
   has_many :watched_coins, dependent: :destroy
-  has_many
+  has_many :coins, through: :watched_coins
+end
