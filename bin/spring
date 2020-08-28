@@ -1,3 +1,4 @@
 #!/usr/bin/env ruby
 
-# Th
+# This file loads spring without using Bundler, in order to be fast.
+# It gets o
