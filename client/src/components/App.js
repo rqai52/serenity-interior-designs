@@ -13,4 +13,8 @@ import FetchUser from './FetchUser';
 class App extends Component {
   render() {
     return (
-      <
+      <div>
+        <NavBar />
+        <Flash />
+        <FetchUser>
+          <Switch>
