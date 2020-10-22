@@ -7,4 +7,7 @@ import Register from './Register';
 import Flash from './Flash';
 import Home from './Home';
 import ProtectedRoute from './ProtectedRoute';
-impor
+import AuthRoute from './AuthRoute';
+import FetchUser from './FetchUser';
+
+class
