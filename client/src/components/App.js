@@ -10,4 +10,7 @@ import ProtectedRoute from './ProtectedRoute';
 import AuthRoute from './AuthRoute';
 import FetchUser from './FetchUser';
 
-class
+class App extends Component {
+  render() {
+    return (
+      <
