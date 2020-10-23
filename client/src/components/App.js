@@ -19,4 +19,5 @@ class App extends Component {
         <FetchUser>
           <Switch>
             <ProtectedRoute exact path="/" component={Home} />
-            <Auth
+            <AuthRoute exact path="/login" component={Login} />
+            <AuthRoute exact 
