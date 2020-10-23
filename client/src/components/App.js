@@ -18,3 +18,5 @@ class App extends Component {
         <Flash />
         <FetchUser>
           <Switch>
+            <ProtectedRoute exact path="/" component={Home} />
+            <Auth
