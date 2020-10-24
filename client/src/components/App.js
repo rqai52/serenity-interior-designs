@@ -20,4 +20,5 @@ class App extends Component {
           <Switch>
             <ProtectedRoute exact path="/" component={Home} />
             <AuthRoute exact path="/login" component={Login} />
-            <AuthRoute exact 
+            <AuthRoute exact path="/register" component={Register} />
+            <Route component={NoMatch}
