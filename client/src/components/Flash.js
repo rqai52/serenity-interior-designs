@@ -37,3 +37,21 @@ class Flash extends Component {
         <Container style={{ marginTop: '40px' }}>
           <Message
             onDismiss={() => dispatch(clearFlash())}
+            color={color}
+          >
+            <Header as="h5" textAlign="center">{message}</Header>
+            {this.fadeFlash(dispatch)}
+          </Message>
+        </Container>
+      );
+    }
+    return null;
+  }
+}
+
+const mapStateToProps = state => {
+  const { flash } = state;
+  return { flash };
+};
+
+export default withRouter(connect(mapStateToProps)(Flash));
