@@ -26,3 +26,8 @@ class App extends Component {
         </FetchUser>
       </div>
     );
+  }
+}
+
+export default App;
+
