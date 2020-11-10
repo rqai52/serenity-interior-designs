@@ -19,4 +19,6 @@ class Login extends Component {
 
   render() {
     const { email, password } = this.state;
-    retur
+    return (
+      <Segment basic>
+        <Header as="h1" textAlign="center">Logi
