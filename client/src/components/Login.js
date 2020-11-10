@@ -13,4 +13,6 @@ class Login extends Component {
 
   handleSubmit = (event) => {
     event.preventDefault();
-    const { disp
+    const { dispatch, history } = this.props;
+    dispatch(handleLogin(this.state, history));
+  }
