@@ -21,4 +21,6 @@ class Login extends Component {
     const { email, password } = this.state;
     return (
       <Segment basic>
-        <Header as="h1" textAlign="center">Logi
+        <Header as="h1" textAlign="center">Login</Header>
+        <Form onSubmit={this.handleSubmit}>
+          <Fo
