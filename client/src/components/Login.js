@@ -26,4 +26,7 @@ class Login extends Component {
           <Form.Field>
             <label htmlFor="email">Email</label>
             <input
+              required
+              id="email"
+              name="email"
         
