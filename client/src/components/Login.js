@@ -23,4 +23,7 @@ class Login extends Component {
       <Segment basic>
         <Header as="h1" textAlign="center">Login</Header>
         <Form onSubmit={this.handleSubmit}>
-          <Fo
+          <Form.Field>
+            <label htmlFor="email">Email</label>
+            <input
+        
