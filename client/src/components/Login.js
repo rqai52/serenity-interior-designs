@@ -31,4 +31,6 @@ class Login extends Component {
               name="email"
               value={email}
               placeholder="Email"
-    
+              onChange={this.handleChange}
+            />
+          </
