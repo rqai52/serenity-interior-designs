@@ -29,4 +29,6 @@ class Login extends Component {
               required
               id="email"
               name="email"
-        
+              value={email}
+              placeholder="Email"
+    
