@@ -39,4 +39,6 @@ class Login extends Component {
             <input
               required
               id="password"
-              nam
+              name="password"
+              value={password}
+              placeholder="Passw
