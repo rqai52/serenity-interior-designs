@@ -33,4 +33,6 @@ class Login extends Component {
               placeholder="Email"
               onChange={this.handleChange}
             />
-          </
+          </Form.Field>
+          <Form.Field>
+            <label htmlFor="password">Password</label
