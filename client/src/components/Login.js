@@ -41,4 +41,7 @@ class Login extends Component {
               id="password"
               name="password"
               value={password}
-              placeholder="Passw
+              placeholder="Password"
+              type="password"
+              onChange={this.handleChange}
+  
