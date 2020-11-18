@@ -44,4 +44,6 @@ class Login extends Component {
               placeholder="Password"
               type="password"
               onChange={this.handleChange}
-  
+            />
+          </Form.Field>
+          <Segment textAlign="center" basic
