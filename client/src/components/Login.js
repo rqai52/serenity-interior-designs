@@ -46,4 +46,6 @@ class Login extends Component {
               onChange={this.handleChange}
             />
           </Form.Field>
-          <Segment textAlign="center" basic
+          <Segment textAlign="center" basic>
+            <Button primary type="submit">Submit</Button>
+          </Segment>
