@@ -49,3 +49,10 @@ class Login extends Component {
           <Segment textAlign="center" basic>
             <Button primary type="submit">Submit</Button>
           </Segment>
+        </Form>
+      </Segment>
+    );
+  }
+}
+
+export default connect()(Login
