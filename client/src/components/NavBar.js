@@ -6,4 +6,7 @@ import { handleLogout } from '../reducers/user';
 
 class NavBar extends Component {
   rightNavs = () => {
-    con
+    const { user, dispatch, history } = this.props;
+
+    if (user.id) {
+      
