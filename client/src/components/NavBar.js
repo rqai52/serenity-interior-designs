@@ -4,4 +4,6 @@ import { Link, withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { handleLogout } from '../reducers/user';
 
-clas
+class NavBar extends Component {
+  rightNavs = () => {
+    con
