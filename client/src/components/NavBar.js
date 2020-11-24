@@ -9,4 +9,7 @@ class NavBar extends Component {
     const { user, dispatch, history } = this.props;
 
     if (user.id) {
-      
+      return (
+        <Menu.Menu position='right'>
+          <Menu.Item
+       
