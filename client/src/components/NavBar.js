@@ -12,4 +12,5 @@ class NavBar extends Component {
       return (
         <Menu.Menu position='right'>
           <Menu.Item
-       
+            name='Logout'
+            onClick={() => dispatch(handleLogout
