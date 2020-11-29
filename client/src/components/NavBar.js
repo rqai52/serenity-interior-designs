@@ -19,4 +19,6 @@ class NavBar extends Component {
       );
     }
     return (
-   
+      <Menu.Menu position="right">
+        <Link to="/register">
+          <Menu.Item n
