@@ -30,4 +30,8 @@ class NavBar extends Component {
     );
   }
 
-  render
+  render() {
+    return (
+      <div>
+        <Menu pointing secondary>
+          <Link t
