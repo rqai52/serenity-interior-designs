@@ -34,4 +34,7 @@ class NavBar extends Component {
     return (
       <div>
         <Menu pointing secondary>
-          <Link t
+          <Link to="/">
+            <Menu.Item name="home" />
+          </Link>
+        
