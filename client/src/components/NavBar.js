@@ -44,4 +44,8 @@ class NavBar extends Component {
   }
 }
 
-con
+const mapStateToProps = state => {
+  return { user: state.user };
+};
+
+export default withRo
