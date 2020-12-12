@@ -7,4 +7,10 @@ class NoMatch extends Component {
     return (
       <Header as="h1" textAlign="center">
         Page Not Found
-    
+        <Link to="/"> Home</Link>
+      </Header>
+    );
+  }
+}
+
+export default NoMatc
