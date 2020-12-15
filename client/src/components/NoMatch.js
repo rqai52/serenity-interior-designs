@@ -13,4 +13,5 @@ class NoMatch extends Component {
   }
 }
 
-export default NoMatc
+export default NoMatch;
+
