@@ -3,4 +3,5 @@
 
 // This lets the app load faster on subsequent visits in production, and gives
 // it offline capabilities. However, it also means that developers (and users)
-// will only s
+// will only see deployed updates on subsequent visits to a page, after all the
+// e
