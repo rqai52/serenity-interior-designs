@@ -32,4 +32,6 @@ export function register(config) {
     }
 
     window.addEventListener('load', () => {
-      const swUr
+      const swUrl = `${process.env.PUBLIC_URL}/service-worker.js`;
+
+      if (isLocalho
