@@ -48,4 +48,10 @@ export function register(config) {
         });
       } else {
         // Is not localhost. Just register service worker
-        registerValidSW
+        registerValidSW(swUrl, config);
+      }
+    });
+  }
+}
+
+function registerVa
