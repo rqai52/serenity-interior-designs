@@ -57,4 +57,6 @@ export function register(config) {
 function registerValidSW(swUrl, config) {
   navigator.serviceWorker
     .register(swUrl)
-    .th
+    .then(registration => {
+      registration.onupdatefound = () => {
+        const ins
