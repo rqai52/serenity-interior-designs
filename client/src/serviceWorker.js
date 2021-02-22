@@ -69,4 +69,6 @@ function registerValidSW(swUrl, config) {
               // At this point, the updated precached content has been fetched,
               // but the previous service worker will still serve the older
               // content until all client tabs are closed.
-              console.log
+              console.log(
+                'New content is available and will be used when all ' +
+            
