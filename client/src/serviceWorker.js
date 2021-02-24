@@ -79,4 +79,5 @@ function registerValidSW(swUrl, config) {
                 config.onUpdate(registration);
               }
             } else {
-              // At this point, everything
+              // At this point, everything has been precached.
+              // It's the perfect time to display
