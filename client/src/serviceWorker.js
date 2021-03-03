@@ -86,4 +86,8 @@ function registerValidSW(swUrl, config) {
 
               // Execute callback
               if (config && config.onSuccess) {
-                config.onSucce
+                config.onSuccess(registration);
+              }
+            }
+          }
+        };
