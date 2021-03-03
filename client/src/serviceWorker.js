@@ -91,3 +91,7 @@ function registerValidSW(swUrl, config) {
             }
           }
         };
+      };
+    })
+    .catch(error => {
+      console.error('Error during service worker regist
