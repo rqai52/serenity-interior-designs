@@ -108,4 +108,4 @@ function checkValidServiceWorker(swUrl, config) {
         response.status === 404 ||
         (contentType != null && contentType.indexOf('javascript') === -1)
       ) {
-  
+        // No service worker found. Probably a different app. Reloa
