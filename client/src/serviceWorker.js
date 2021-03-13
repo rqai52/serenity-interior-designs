@@ -113,3 +113,7 @@ function checkValidServiceWorker(swUrl, config) {
           registration.unregister().then(() => {
             window.location.reload();
           });
+        });
+      } else {
+        // Service worker found. Proceed as normal.
+  
