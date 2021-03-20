@@ -7,4 +7,7 @@ const enhancers = compose(
   window.devToolsExtension ? window.devToolsExtension() : f => f
 );
 
-const store = creat
+const store = createStore(rootReducer, {}, enhancers);
+
+if (module.hot) {
+  module.hot.accep
