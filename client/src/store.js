@@ -10,4 +10,5 @@ const enhancers = compose(
 const store = createStore(rootReducer, {}, enhancers);
 
 if (module.hot) {
-  module.hot.accep
+  module.hot.accept('./reducers/', () => {
+    const nextRootReducer = require('./red
