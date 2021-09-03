@@ -20,4 +20,6 @@ require "action_cable/engine"
 Bundler.require(*Rails.groups)
 
 module Cryptic
-  class Application < Rails::Appli
+  class Application < Rails::Application
+    # Initialize configuration defaults for originally generated Rails version.
+   
