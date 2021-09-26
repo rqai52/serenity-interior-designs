@@ -38,4 +38,6 @@ module Cryptic
     # Skip views, helpers and assets when generating a new resource.
     config.middleware.use ActionDispatch::Flash
     config.middleware.use ActionDispatch::Cookies
-    config.middleware.use Actio
+    config.middleware.use ActionDispatch::Session::CookieStore
+  end
+end
