@@ -1,1 +1,3 @@
-ENV['BUNDLE_GEMFILE'] ||= File.expand_pa
+ENV['BUNDLE_GEMFILE'] ||= File.expand_path('../Gemfile', __dir__)
+
+require 'bundler/setup' # Set up gems liste
