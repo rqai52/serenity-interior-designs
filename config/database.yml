@@ -15,4 +15,6 @@
 # gem 'pg'
 #
 default: &default
-  adapter: postgresq
+  adapter: postgresql
+  encoding: unicode
+  # For details on connection pooling, see Rails con
