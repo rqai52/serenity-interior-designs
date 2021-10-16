@@ -31,4 +31,7 @@ development:
   # the same name as the operating system user that initialized the database.
   #username: cryptic
 
-  # The password
+  # The password associated with the postgres role (username).
+  #password:
+
+  # Connect on a TCP s
