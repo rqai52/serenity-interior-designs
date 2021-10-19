@@ -43,4 +43,5 @@ development:
   # If your server runs on a different port number, change accordingly.
   #port: 5432
 
-  # Schema search pa
+  # Schema search path. The server defaults to $user,public
+  #schema_search_path: myapp,sharedap
