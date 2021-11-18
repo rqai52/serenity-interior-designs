@@ -66,4 +66,6 @@ test:
 # Instead, provide the password as a unix environment variable when you boot
 # the app. Read http://guides.rubyonrails.org/configuring.html#configuring-a-database
 # for a full rundown on how to provide these environment variables in a
-# production dep
+# production deployment.
+#
+# On Heroku and other platform providers, you may have a full
