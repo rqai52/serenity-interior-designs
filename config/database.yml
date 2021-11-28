@@ -82,4 +82,4 @@ production:
   <<: *default
   database: cryptic_production
   username: cryptic
-  password: <%= ENV['CRYPTIC_DATABASE_PASSWO
+  password: <%= ENV['CRYPTIC_DATABASE_PASSWORD'] %>
