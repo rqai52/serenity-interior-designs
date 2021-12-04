@@ -1,3 +1,4 @@
 require "#{Rails.root}/lib/listen"
 include Listen
-Rails.applicati
+Rails.application.configure do
+  config.action_mailer.default_url_options = { host: "localh
