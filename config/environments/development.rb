@@ -16,4 +16,5 @@ Rails.application.configure do
   config.consider_all_requests_local = true
 
   # Enable/disable caching. By default caching is disabled.
-  #
+  # Run rails dev:cache to toggle caching.
+  if Rails.root.join('tmp',
