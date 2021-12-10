@@ -30,4 +30,5 @@ Rails.application.configure do
     config.cache_store = :null_store
   end
 
-  # Store uploaded files on the l
+  # Store uploaded files on the local file system (see config/storage.yml for options)
+  confi
