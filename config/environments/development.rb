@@ -31,4 +31,6 @@ Rails.application.configure do
   end
 
   # Store uploaded files on the local file system (see config/storage.yml for options)
-  confi
+  config.active_storage.service = :local
+
+  # Don't care if the mailer can't s
