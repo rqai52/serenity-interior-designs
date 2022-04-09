@@ -15,4 +15,5 @@ port        ENV.fetch("PORT") { 3000 }
 #
 environment ENV.fetch("RAILS_ENV") { "development" }
 
-# Specifies the 
+# Specifies the number of `workers` to boot in clustered mode.
+# Workers are forked webserve
