@@ -6,4 +6,8 @@ Rails.application.routes.draw do
   end
 
   #Do not place any routes below this one
-  if Rails.env.producti
+  if Rails.env.production?
+    get '*other', to: 'static#index'
+  end
+
+  match '/api/auth/:provider/callback',
