@@ -10,4 +10,5 @@ Rails.application.routes.draw do
     get '*other', to: 'static#index'
   end
 
-  match '/api/auth/:provider/callback',
+  match '/api/auth/:provider/callback', to: 'sessions#create', via: [:get, :post]
+end
