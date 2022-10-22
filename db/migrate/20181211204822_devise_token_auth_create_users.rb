@@ -6,4 +6,5 @@ class DeviseTokenAuthCreateUsers < ActiveRecord::Migration[5.2]
       t.string :provider, :null => false, :default => "email"
       t.string :uid, :null => false, :default => ""
 
-      ## Database 
+      ## Database authenticatable
+      t.string :encrypted_password, :null => false, :default =>
