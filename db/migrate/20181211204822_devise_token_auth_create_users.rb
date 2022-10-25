@@ -15,4 +15,7 @@ class DeviseTokenAuthCreateUsers < ActiveRecord::Migration[5.2]
       t.boolean  :allow_password_change, :default => false
 
       ## Rememberable
-      t.datetime :remembe
+      t.datetime :remember_created_at
+
+      ## Trackable
+      t.integer  :sign_in_count, 
