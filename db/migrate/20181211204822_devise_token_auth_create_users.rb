@@ -12,4 +12,7 @@ class DeviseTokenAuthCreateUsers < ActiveRecord::Migration[5.2]
       ## Recoverable
       t.string   :reset_password_token
       t.datetime :reset_password_sent_at
-      t.boolean  :allow_password
+      t.boolean  :allow_password_change, :default => false
+
+      ## Rememberable
+      t.datetime :remembe
