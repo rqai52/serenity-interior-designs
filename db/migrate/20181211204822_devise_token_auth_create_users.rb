@@ -30,4 +30,5 @@ class DeviseTokenAuthCreateUsers < ActiveRecord::Migration[5.2]
       t.datetime :confirmation_sent_at
       t.string   :unconfirmed_email # Only if using reconfirmable
 
-      ## Lockabl
+      ## Lockable
+      # t.integer  :failed_attempts, :default => 0, :null => false # Only if 
