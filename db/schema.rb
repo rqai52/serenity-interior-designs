@@ -16,4 +16,7 @@ ActiveRecord::Schema.define(version: 2018_12_11_231903) do
   enable_extension "plpgsql"
 
   create_table "coins", force: :cascade do |t|
-    t.i
+    t.integer "cmc_id"
+    t.string "name"
+    t.string "symbol"
+    t.str
