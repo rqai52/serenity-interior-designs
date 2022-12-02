@@ -19,4 +19,6 @@ ActiveRecord::Schema.define(version: 2018_12_11_231903) do
     t.integer "cmc_id"
     t.string "name"
     t.string "symbol"
-    t.str
+    t.string "price"
+    t.datetime "last_fetched"
+    t.datetime "created_at
