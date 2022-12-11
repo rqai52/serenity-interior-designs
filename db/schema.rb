@@ -30,4 +30,5 @@ ActiveRecord::Schema.define(version: 2018_12_11_231903) do
     t.string "uid", default: "", null: false
     t.string "encrypted_password", default: "", null: false
     t.string "reset_password_token"
- 
+    t.datetime "reset_password_sent_at"
+    t.boolean "allow_password_change", defa
