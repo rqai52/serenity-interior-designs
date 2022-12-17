@@ -39,4 +39,6 @@ ActiveRecord::Schema.define(version: 2018_12_11_231903) do
     t.string "current_sign_in_ip"
     t.string "last_sign_in_ip"
     t.string "confirmation_token"
-    t.datetime "confirm
+    t.datetime "confirmed_at"
+    t.datetime "confirmation_sent_at"
+    t.string "unconfirmed_em
