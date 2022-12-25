@@ -47,4 +47,6 @@ ActiveRecord::Schema.define(version: 2018_12_11_231903) do
     t.string "image"
     t.string "email"
     t.json "tokens"
-    
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.
