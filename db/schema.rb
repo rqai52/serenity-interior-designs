@@ -44,4 +44,7 @@ ActiveRecord::Schema.define(version: 2018_12_11_231903) do
     t.string "unconfirmed_email"
     t.string "name"
     t.string "nickname"
-    t.strin
+    t.string "image"
+    t.string "email"
+    t.json "tokens"
+    
