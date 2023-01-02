@@ -55,4 +55,6 @@ ActiveRecord::Schema.define(version: 2018_12_11_231903) do
     t.index ["uid", "provider"], name: "index_users_on_uid_and_provider", unique: true
   end
 
-  cre
+  create_table "watched_coins", force: :cascade do |t|
+    t.string "initial_price"
+  
