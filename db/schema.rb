@@ -57,4 +57,6 @@ ActiveRecord::Schema.define(version: 2018_12_11_231903) do
 
   create_table "watched_coins", force: :cascade do |t|
     t.string "initial_price"
-  
+    t.bigint "user_id"
+    t.bigint "coin_id"
+    t.datetime "cre
