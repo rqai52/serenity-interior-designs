@@ -61,4 +61,5 @@ ActiveRecord::Schema.define(version: 2018_12_11_231903) do
     t.bigint "coin_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    
+    t.index ["coin_id"], name: "index_watched_coins_on_coin_id"
+    t.inde
