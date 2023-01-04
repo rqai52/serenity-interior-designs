@@ -59,4 +59,6 @@ ActiveRecord::Schema.define(version: 2018_12_11_231903) do
     t.string "initial_price"
     t.bigint "user_id"
     t.bigint "coin_id"
-    t.datetime "cre
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    
