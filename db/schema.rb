@@ -66,4 +66,5 @@ ActiveRecord::Schema.define(version: 2018_12_11_231903) do
   end
 
   add_foreign_key "watched_coins", "coins"
-  add_foreign_key "watched_coin
+  add_foreign_key "watched_coins", "users"
+end
