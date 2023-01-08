@@ -65,4 +65,5 @@ ActiveRecord::Schema.define(version: 2018_12_11_231903) do
     t.index ["user_id"], name: "index_watched_coins_on_user_id"
   end
 
-  add_fore
+  add_foreign_key "watched_coins", "coins"
+  add_foreign_key "watched_coin
